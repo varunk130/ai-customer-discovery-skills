@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest an improvement to an existing skill
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem this solves
+      description: What user pain or workflow gap motivates this?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Confirm
+      options:
+        - label: I have searched existing issues
+          required: true
+        - label: This is for an existing skill (use new skill proposal otherwise)
+          required: true
