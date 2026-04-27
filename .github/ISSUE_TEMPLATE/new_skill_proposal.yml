@@ -1,0 +1,52 @@
+name: New skill proposal
+description: Propose a brand-new skill for the library
+title: "[skill-proposal]: "
+labels: ["enhancement", "roadmap"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      placeholder: e.g. churn-signal-mapper
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose (one paragraph)
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Expected inputs
+    validations:
+      required: true
+  - type: textarea
+    id: outputs
+    attributes:
+      label: Expected outputs
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: A concrete example use case
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why this fits the customer-discovery library
+      description: How does it connect to signal → insight → opportunity?
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: I have searched existing issues and roadmap
+          required: true
+        - label: I am willing to author or co-author the skill
+          required: false
