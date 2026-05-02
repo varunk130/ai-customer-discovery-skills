@@ -20,3 +20,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 2026-05-02 — Maintenance: normalized markdown table spacing across docs.
 - 2026-05-02 — Documentation: added cross-references between related docs.
 - 2026-05-02 — Maintenance: minor wording consistency pass on top-level README.
+- 2026-05-02 — Documentation: standardized terminology (skill / agent / playbook) usage.
