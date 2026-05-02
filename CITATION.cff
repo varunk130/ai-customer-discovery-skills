@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: ai-customer-discovery-skills
+message: "If you use these skills in your work, please cite them as below."
+type: software
+authors:
+  - family-names: Kulkarni
+    given-names: Varun
+    orcid: ""
+repository-code: "https://github.com/varunk130/ai-customer-discovery-skills"
+url: "https://github.com/varunk130/ai-customer-discovery-skills"
+abstract: >-
+  A 12-skill library for AI-assisted product discovery, covering capture,
+  synthesis, and decision layers — from raw customer signal to validated
+  opportunity. Built for Claude Code, GitHub Copilot, and SKILL.md-compatible
+  agent runtimes.
+keywords:
+  - claude-code
+  - github-copilot
+  - product-management
+  - customer-discovery
+  - jtbd
+  - voice-of-customer
+  - ai-agents
+license: MIT
