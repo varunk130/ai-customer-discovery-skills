@@ -1,6 +1,6 @@
 # AI Customer Discovery Skills
 
-12 AI-powered skills for product discovery — from raw customer signal to validated opportunity. Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [GitHub Copilot](https://github.com/features/copilot).
+4 shipped skills for product discovery (target: 12) — from raw customer signal to validated opportunity — from raw customer signal to validated opportunity. Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [GitHub Copilot](https://github.com/features/copilot).
 
 ## Why This Library Exists
 
