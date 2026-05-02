@@ -17,3 +17,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - TBD
 
 - First public release.- 2026-05-02 — Documentation polish: tightened README phrasing and clarified install steps.
+- 2026-05-02 — Maintenance: normalized markdown table spacing across docs.
