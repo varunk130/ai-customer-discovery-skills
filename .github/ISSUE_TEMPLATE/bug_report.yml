@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a problem with a skill or workflow
+title: "[bug]: "
+labels: ["bug"]
+assignees: ["varunk130"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please fill in as much as you can.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      placeholder: e.g. interview-decoder
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Skill version
+      placeholder: e.g. 0.1.0
+    validations:
+      required: false
+  - type: dropdown
+    id: runtime
+    attributes:
+      label: Agent runtime
+      options:
+        - Claude Code
+        - GitHub Copilot CLI
+        - Cursor
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps to trigger the bug
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
