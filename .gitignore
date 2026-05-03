@@ -8,3 +8,13 @@ build/
 .vscode/
 .idea/
 *.tmp
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.coverage
+build/
+dist/
+.venv/
+
