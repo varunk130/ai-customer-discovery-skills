@@ -5,7 +5,7 @@ description: 'Triages a backlog of raw customer feedback into a ranked list of o
 
 # Feedback Prioritizer
 
-Convert a stack of customer feedback (tickets, interview notes, NPS comments, sales loss reasons) into a small ranked list of opportunities, with explicit reasoning for what *not* to act on. The single most important section of the output is "Do Not Act" — vocal-minority signals that look compelling but would distract the roadmap.
+Convert a stack of customer feedback (tickets, interview notes, NPS comments, sales loss reasons) into a small ranked list of opportunities, with explicit reasoning for what *not* to act on. The single most important section of the output is "Do Not Act" - vocal-minority signals that look compelling but would distract the roadmap.
 
 ## Core Principle
 
@@ -13,7 +13,7 @@ Convert a stack of customer feedback (tickets, interview notes, NPS comments, sa
 
 ## Scoring Model: RSCF
 
-Each candidate opportunity is scored 1–5 on four dimensions:
+Each candidate opportunity is scored 1-5 on four dimensions:
 
 | Letter | Dimension | Question |
 |--------|-----------|----------|
@@ -22,7 +22,7 @@ Each candidate opportunity is scored 1–5 on four dimensions:
 | **C** | Strategic fit | Does this align with the current strategy or pull us off-mission? |
 | **F** | Confidence | How certain are we, given evidence quality and quantity? |
 
-**Score = R × S × C × F / 25** (normalized to 0–25). Confidence acts as a multiplier that crushes weakly-evidenced items.
+**Score = R × S × C × F / 25** (normalized to 0-25). Confidence acts as a multiplier that crushes weakly-evidenced items.
 
 ## Output
 
@@ -31,7 +31,7 @@ Save to `outputs/feedback-priority-[period]-[YYYY-MM-DD].md`
 | Section | Description |
 |---------|-------------|
 | **Top 5 Opportunities** | Ranked by RSCF, with evidence count and source breakdown |
-| **Watch List** | Promising but evidence-light items (Confidence ≤ 2) — gather more data |
+| **Watch List** | Promising but evidence-light items (Confidence ≤ 2) - gather more data |
 | **Do Not Act** | Vocal-minority signals with explicit reasoning for de-prioritization |
 | **Patterns Across Sources** | Themes that appeared in 3+ independent channels (highest-trust signal) |
 | **Counterfactual Check** | "If we only did the top-1 item, would the next quarter look meaningfully better?" |
@@ -46,10 +46,10 @@ I'll ask:
 Group raw items into themes. Items that repeat across *different* sources weight more than the same item repeated 50× from one source.
 
 ### Step 3: Score
-Score each theme 1–5 on R, S, C, F with a one-line rationale per dimension. Compute RSCF.
+Score each theme 1-5 on R, S, C, F with a one-line rationale per dimension. Compute RSCF.
 
 ### Step 4: Pattern Pass
-Surface themes that appeared in 3+ source types — these are the highest-trust signals even if individual scores are middling.
+Surface themes that appeared in 3+ source types - these are the highest-trust signals even if individual scores are middling.
 
 ### Step 5: Build the Do-Not-Act List
 Identify items that:

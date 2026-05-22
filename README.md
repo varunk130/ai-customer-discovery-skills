@@ -2,7 +2,7 @@
 
 # 🎯 AI Customer Discovery Skills
 
-### Turn raw customer signal into validated product opportunities — in minutes, not weeks
+### Turn raw customer signal into validated product opportunities - in minutes, not weeks
 
 [![Skills](https://img.shields.io/badge/Shipped_Skills-4-blue?style=for-the-badge)](#-skills-catalog)
 [![Roadmap](https://img.shields.io/badge/Target-12_skills-orange?style=for-the-badge)](#-roadmap)
@@ -58,7 +58,7 @@ flowchart LR
 
 ## Why This Library Exists
 
-Customer discovery is the first place product work goes wrong: signals get cherry-picked, opportunities get sized by gut feel, and personas get over-fitted to whoever shouted loudest in the last interview. This library captures the structured workflows that turn raw signal into evidence — each skill is a self-contained markdown file that any compatible AI agent can load on demand.
+Customer discovery is the first place product work goes wrong: signals get cherry-picked, opportunities get sized by gut feel, and personas get over-fitted to whoever shouted loudest in the last interview. This library captures the structured workflows that turn raw signal into evidence - each skill is a self-contained markdown file that any compatible AI agent can load on demand.
 
 ---
 
@@ -89,10 +89,10 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 
 | Skill | What it does | Use when |
 |-------|--------------|----------|
-| [competitive-analyzer](skills/competitive-analyzer/SKILL.md) | Disciplined competitive teardown that picks the 4–6 buyer-weighted dimensions, scores every competitor, and surfaces gap + risk maps | You need a defensible competitive analysis that changes a decision, not a 40-row feature grid |
+| [competitive-analyzer](skills/competitive-analyzer/SKILL.md) | Disciplined competitive teardown that picks the 4-6 buyer-weighted dimensions, scores every competitor, and surfaces gap + risk maps | You need a defensible competitive analysis that changes a decision, not a 40-row feature grid |
 | [north-star-metric-finder](skills/north-star-metric-finder/SKILL.md) | Identifies a candidate North Star Metric using five strict criteria, then maps the input metrics that drive it | You're picking the single metric that will steer two years of roadmap decisions |
 | [feedback-prioritizer](skills/feedback-prioritizer/SKILL.md) | Triages raw customer feedback into a ranked list using the RSCF model, with an explicit `Do Not Act` list for vocal-minority signals | A backlog of tickets / interviews / NPS / sales notes is piling up and the team needs focus |
-| [assumption-mapper](skills/assumption-mapper/SKILL.md) | Surfaces hidden assumptions, classifies them Known / Believed / Hoped × Critical–Low, and outputs a ranked test plan | You're about to commit real investment to a bet and need to know what could kill it first |
+| [assumption-mapper](skills/assumption-mapper/SKILL.md) | Surfaces hidden assumptions, classifies them Known / Believed / Hoped × Critical-Low, and outputs a ranked test plan | You're about to commit real investment to a bet and need to know what could kill it first |
 
 ---
 
@@ -104,4 +104,4 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 
 ## License
 
-[MIT](LICENSE) — use freely, attribution appreciated.
+[MIT](LICENSE) - use freely, attribution appreciated.

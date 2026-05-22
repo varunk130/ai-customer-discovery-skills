@@ -6,7 +6,7 @@ End-to-end example using the `new-opportunity-validation` recipe.
 
 ## Skills used
 
-All 7 in the validation recipe — see [`docs/workflows/`](../../docs/workflows/).
+All 7 in the validation recipe - see [`docs/workflows/`](../../docs/workflows/).
 
 ## Synthetic input
 

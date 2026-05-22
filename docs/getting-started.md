@@ -6,7 +6,7 @@ This guide takes you from zero to your first skill execution in under 10 minutes
 
 You need one of:
 
-- [Claude Code](https://www.anthropic.com/claude-code) — recommended
+- [Claude Code](https://www.anthropic.com/claude-code) - recommended
 - [GitHub Copilot CLI](https://docs.github.com/en/copilot) with skills extension
 - Any agent runtime that supports the SKILL.md format
 
@@ -19,7 +19,7 @@ cd ai-customer-discovery-skills
 
 ## 2. Pick a skill
 
-Browse `skills/` or read [`docs/architecture.md`](architecture.md) for the layered overview. For your first run we recommend `interview-decoder` — it has the lowest setup overhead.
+Browse `skills/` or read [`docs/architecture.md`](architecture.md) for the layered overview. For your first run we recommend `interview-decoder` - it has the lowest setup overhead.
 
 ## 3. Run a worked example
 
@@ -56,4 +56,4 @@ Drop your real (anonymized!) customer interviews into a local folder and re-run.
 
 - Read [`CONTRIBUTING.md`](../CONTRIBUTING.md) if you want to add a skill.
 - Watch the [Discussions](https://github.com/varunk130/ai-customer-discovery-skills/discussions) for new releases.
-- Star the repo if it helps your work — it genuinely helps with discoverability.
+- Star the repo if it helps your work - it genuinely helps with discoverability.

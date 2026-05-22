@@ -37,26 +37,26 @@ The mapper walks through 5 categories to surface assumptions a one-shot brainsto
 
 Save to `outputs/assumption-map-[initiative]-[YYYY-MM-DD].md`
 
-- **Assumption Inventory** — every assumption surfaced, by category
-- **Classification Matrix** — Known / Believed / Hoped × Critical / High / Medium / Low
-- **Risk Surface** — the Critical × Hoped quadrant, called out explicitly
-- **Test Plan** — for each Critical × (Hoped or Believed) assumption: smallest test that would invalidate it, expected duration, success criteria
-- **Defer List** — Low-criticality assumptions that don't justify a test (named so they're not silently treated as Known)
+- **Assumption Inventory** - every assumption surfaced, by category
+- **Classification Matrix** - Known / Believed / Hoped × Critical / High / Medium / Low
+- **Risk Surface** - the Critical × Hoped quadrant, called out explicitly
+- **Test Plan** - for each Critical × (Hoped or Believed) assumption: smallest test that would invalidate it, expected duration, success criteria
+- **Defer List** - Low-criticality assumptions that don't justify a test (named so they're not silently treated as Known)
 
 ## Process
 
 ### Step 1: Frame the Bet
 I'll ask:
-> "Describe the initiative or strategy in 2–3 sentences. What does success look like 12 months from now?"
+> "Describe the initiative or strategy in 2-3 sentences. What does success look like 12 months from now?"
 
 ### Step 2: Walk the 5 Categories
-Surface 4–8 assumptions per category. Aim for *uncomfortable* assumptions — the ones the team would rather not name.
+Surface 4-8 assumptions per category. Aim for *uncomfortable* assumptions - the ones the team would rather not name.
 
 ### Step 3: Classify
 For each assumption, classify Known / Believed / Hoped with the evidence (or absence thereof) noted.
 
 ### Step 4: Rank by Criticality
-Critical = the bet fails if this assumption is wrong. Most initiatives have 3–5 Critical assumptions; if the count is higher, the initiative is too entangled and should be decomposed.
+Critical = the bet fails if this assumption is wrong. Most initiatives have 3-5 Critical assumptions; if the count is higher, the initiative is too entangled and should be decomposed.
 
 ### Step 5: Build the Test Plan
 For each Critical × (Hoped or Believed), design the *smallest test that would invalidate* the assumption. Tests are ranked by speed-to-disconfirm, not by speed-to-confirm.

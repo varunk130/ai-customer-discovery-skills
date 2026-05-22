@@ -9,7 +9,7 @@ RAW CUSTOMER SIGNAL  →  CODED INSIGHT  →  VALIDATED OPPORTUNITY
       (capture)            (synthesize)        (decide)
 ```
 
-Every skill belongs to one of three layers. Skills are designed to *compose* — the output of one is a valid input to the next.
+Every skill belongs to one of three layers. Skills are designed to *compose* - the output of one is a valid input to the next.
 
 ## The three layers
 
@@ -42,7 +42,7 @@ Skills that take insights and produce a defensible decision artefact.
 
 ## Composition pattern
 
-A typical end-to-end discovery cycle uses 4–6 skills:
+A typical end-to-end discovery cycle uses 4-6 skills:
 
 ```
 voc-conductor → interview-decoder → jtbd-extractor → opportunity-triangulator → hypothesis-stress-tester
@@ -58,4 +58,4 @@ Most discovery libraries are flat collections of prompts. They produce inconsist
 
 - This library does **not** ship a runtime, agent harness, or orchestrator. It ships specifications + prompts that any agent can execute.
 - It does **not** opine on storage, vector search, or retrieval.
-- It is **not** a substitute for talking to customers — it amplifies that work, not replaces it.
+- It is **not** a substitute for talking to customers - it amplifies that work, not replaces it.

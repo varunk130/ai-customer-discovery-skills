@@ -2,9 +2,9 @@
 
 Skills are designed to compose. These recipes are battle-tested combinations.
 
-- [Quick discovery sprint](#quick-discovery-sprint) — 3 skills
-- [Churn root-cause analysis](#churn-root-cause-analysis) — 5 skills
-- [New opportunity validation](#new-opportunity-validation) — 7 skills
+- [Quick discovery sprint](#quick-discovery-sprint) - 3 skills
+- [Churn root-cause analysis](#churn-root-cause-analysis) - 5 skills
+- [New opportunity validation](#new-opportunity-validation) - 7 skills
 
 ---
 
@@ -18,7 +18,7 @@ flowchart LR
   B --> C[opportunity-triangulator]
 ```
 
-**Prerequisites**: 3–5 transcripts.
+**Prerequisites**: 3-5 transcripts.
 
 **Artefacts produced**:
 

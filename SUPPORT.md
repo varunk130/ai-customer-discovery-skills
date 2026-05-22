@@ -4,7 +4,7 @@ Thanks for using `ai-customer-discovery-skills`. Here is where to go for help.
 
 ## 💬 Questions and ideas
 
-- [GitHub Discussions](https://github.com/varunk130/ai-customer-discovery-skills/discussions) — Q&A, ideas, show-and-tell.
+- [GitHub Discussions](https://github.com/varunk130/ai-customer-discovery-skills/discussions) - Q&A, ideas, show-and-tell.
 - For an open-ended question, prefer **Discussions → Q&A** over an issue.
 
 ## 🐛 Bug reports
