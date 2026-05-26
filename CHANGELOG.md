@@ -14,12 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Issue and PR templates
 - Branch protection ruleset on `main`
 
-## [0.1.0] - TBD
+## [0.1.0] - 2026-05-02
 
 - First public release.
-- 2026-05-02 - Documentation polish: tightened README phrasing and clarified install steps.
-- 2026-05-02 - Maintenance: normalized markdown table spacing across docs.
-- 2026-05-02 - Documentation: added cross-references between related docs.
-- 2026-05-02 - Maintenance: minor wording consistency pass on top-level README.
-- 2026-05-02 - Documentation: standardized terminology (skill / agent / playbook) usage.
-- 2026-05-02 - Maintenance: tidied trailing whitespace and final-newline conventions.
+- Documentation polish: tightened README phrasing and clarified install steps.
+- Maintenance: normalized markdown table spacing across docs.
+- Documentation: added cross-references between related docs.
+- Maintenance: minor wording consistency pass on top-level README.
+- Documentation: standardized terminology (skill / agent / playbook) usage.
+- Maintenance: tidied trailing whitespace and final-newline conventions.
