@@ -102,7 +102,7 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 
 ---
 
-## Related work
+## Related Work
 
 Part of a portfolio of AI agent and skill libraries for product, GTM, and decision-making teams.
 
