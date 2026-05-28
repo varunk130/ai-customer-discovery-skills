@@ -140,4 +140,4 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 ## License
 
-[MIT](LICENSE) - use freely, attribution appreciated.
+[MIT](LICENSE) — use freely, attribution appreciated.
