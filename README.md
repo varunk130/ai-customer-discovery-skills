@@ -2,7 +2,7 @@
 
 # 🎯 AI Customer Discovery Skills
 
-### Turn raw customer signal into validated product opportunities - in minutes, not weeks
+### Turn raw customer signal into validated product opportunities — in minutes, not weeks
 
 [![Skills](https://img.shields.io/badge/Shipped_Skills-4-blue?style=for-the-badge)](#-skills-catalog)
 [![Roadmap](https://img.shields.io/badge/Target-12_skills-orange?style=for-the-badge)](#-roadmap)
@@ -58,7 +58,7 @@ flowchart LR
 
 ## Why This Library Exists
 
-Customer discovery is the first place product work goes wrong: signals get cherry-picked, opportunities get sized by gut feel, and personas get over-fitted to whoever shouted loudest in the last interview. This library captures the structured workflows that turn raw signal into evidence - each skill is a self-contained markdown file that any compatible AI agent can load on demand.
+Customer discovery is the first place product work goes wrong: signals get cherry-picked, opportunities get sized by gut feel, and personas get over-fitted to whoever shouted loudest in the last interview. This library captures the structured workflows that turn raw signal into evidence — each skill is a self-contained markdown file that any compatible AI agent can load on demand.
 
 ---
 
