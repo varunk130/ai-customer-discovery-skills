@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero.svg" alt="AI Customer Discovery Skills — Turn raw customer signal into validated product opportunities" width="100%"/>
+
 # 🎯 AI Customer Discovery Skills
 
 ### Turn raw customer signal into validated product opportunities — in minutes, not weeks
