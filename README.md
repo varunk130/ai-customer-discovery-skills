@@ -2,7 +2,7 @@
 
 # 🎯 AI Customer Discovery Skills
 
-### Turn raw customer signal into validated product opportunities - in minutes, not weeks
+### Turn raw customer signal into validated product opportunities — in minutes, not weeks
 
 [![Skills](https://img.shields.io/badge/Shipped_Skills-4-blue?style=for-the-badge)](#-skills-catalog)
 [![Roadmap](https://img.shields.io/badge/Target-12_skills-orange?style=for-the-badge)](#-roadmap)
