@@ -13,7 +13,7 @@ Instead:
 
 You can expect:
 
-- Acknowledgement within 7 days
+- Acknowledgment within 7 days
 - A coordinated fix or mitigation plan
 - Credit in the changelog if you wish
 
