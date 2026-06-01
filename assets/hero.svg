@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="AI Customer Discovery Skills. Turn raw customer signal into validated product opportunities.">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a2218"/>
+      <stop offset="50%" style="stop-color:#0e3a2a"/>
+      <stop offset="100%" style="stop-color:#0a2218"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#34d399"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef7e0"/>
+      <stop offset="100%" style="stop-color:#fbbc04"/>
+    </linearGradient>
+    <linearGradient id="skill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5eb1ff"/>
+      <stop offset="100%" style="stop-color:#1a73e8"/>
+    </linearGradient>
+    <linearGradient id="output" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#34d399"/>
+      <stop offset="100%" style="stop-color:#0d652d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)" rx="12"/>
+
+  <ellipse cx="200" cy="190" rx="260" ry="160" fill="#10b981" opacity="0.10"/>
+  <ellipse cx="1000" cy="190" rx="240" ry="140" fill="#fbbc04" opacity="0.06"/>
+
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="76" x2="1200" y2="76"/>
+    <line x1="0" y1="190" x2="1200" y2="190"/>
+    <line x1="0" y1="304" x2="1200" y2="304"/>
+  </g>
+
+  <rect x="80" y="42" width="80" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Glyph: target / discovery -->
+  <g transform="translate(80, 62)">
+    <rect width="56" height="56" rx="12" fill="#10b981" opacity="0.15"/>
+    <circle cx="28" cy="28" r="18" fill="none" stroke="#34d399" stroke-width="2" opacity="0.7"/>
+    <circle cx="28" cy="28" r="11" fill="none" stroke="#34d399" stroke-width="2" opacity="0.85"/>
+    <circle cx="28" cy="28" r="4" fill="#34d399"/>
+  </g>
+
+  <text x="156" y="100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-1">AI Customer Discovery Skills</text>
+
+  <text x="156" y="135" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#bff0d8">Turn raw customer signal into validated product opportunities — in minutes, not weeks.</text>
+
+  <rect x="80" y="170" width="1040" height="1" fill="#ffffff" opacity="0.12"/>
+
+  <!-- Flywheel: Signal → Skills → Output -->
+  <g transform="translate(80, 200)" font-family="-apple-system, sans-serif">
+    <!-- SIGNAL -->
+    <g>
+      <rect width="300" height="140" rx="12" fill="url(#signal)" opacity="0.95"/>
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#5a3e00" letter-spacing="2">RAW SIGNAL</text>
+      <g font-size="13" font-weight="500" fill="#202124">
+        <text x="20" y="60">· Support tickets</text>
+        <text x="20" y="80">· Sales call notes</text>
+        <text x="20" y="100">· NPS &amp; surveys</text>
+        <text x="20" y="120">· Customer interviews</text>
+      </g>
+    </g>
+
+    <!-- arrow -->
+    <text x="345" y="80" font-size="32" fill="#34d399" font-weight="600">→</text>
+
+    <!-- SKILLS -->
+    <g transform="translate(370, 0)">
+      <rect width="300" height="140" rx="12" fill="url(#skill)" opacity="0.95"/>
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="2">4 DISCOVERY SKILLS</text>
+      <g font-size="12" font-weight="500" fill="#e6efff">
+        <text x="20" y="58">· feedback-prioritizer (RSCF)</text>
+        <text x="20" y="78">· competitive-analyzer</text>
+        <text x="20" y="98">· assumption-mapper</text>
+        <text x="20" y="118">· north-star-metric-finder</text>
+      </g>
+    </g>
+
+    <!-- arrow -->
+    <text x="685" y="80" font-size="32" fill="#34d399" font-weight="600">→</text>
+
+    <!-- OUTPUT -->
+    <g transform="translate(710, 0)">
+      <rect width="330" height="140" rx="12" fill="url(#output)"/>
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="2">VALIDATED OPPORTUNITY</text>
+      <g font-size="13" font-weight="500" fill="#e6f4ea">
+        <text x="20" y="60">· Ranked backlog</text>
+        <text x="20" y="80">· Defensible competitive POV</text>
+        <text x="20" y="100">· Ranked test plan</text>
+        <text x="20" y="120">· North Star + input metrics</text>
+      </g>
+    </g>
+  </g>
+</svg>
