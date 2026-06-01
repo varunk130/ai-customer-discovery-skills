@@ -58,7 +58,7 @@ flowchart LR
 
 ## Why This Library Exists
 
-Customer discovery is the first place product work goes wrong: signals get cherry-picked, opportunities get sized by gut feel, and personas get over-fitted to whoever shouted loudest in the last interview. This library captures the structured workflows that turn raw signal into evidence - each skill is a self-contained markdown file that any compatible AI agent can load on demand.
+Customer discovery is the first place product work goes wrong: signals get cherry-picked, opportunities get sized by gut feel, and personas get over-fitted to whoever shouted loudest in the last interview. This library captures the structured workflows that turn raw signal into evidence — each skill is a self-contained markdown file that any compatible AI agent can load on demand.
 
 ---
 
