@@ -1,0 +1,11 @@
+[project]
+name = "jtbd-extractor"
+version = "1.0.0"
+description = "Turn research data into Jobs-to-be-Done visual reports"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Varun Kulkarni"}]
+
+[project.scripts]
+jtbd = "jtbd.cli:main"

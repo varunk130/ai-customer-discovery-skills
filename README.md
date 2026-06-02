@@ -6,7 +6,7 @@
 
 ### Turn raw customer signal into validated product opportunities — in minutes, not weeks
 
-[![Skills](https://img.shields.io/badge/Shipped_Skills-4-blue?style=for-the-badge)](#-skills-catalog)
+[![Skills](https://img.shields.io/badge/Shipped_Skills-5-blue?style=for-the-badge)](#-skills-catalog)
 [![Roadmap](https://img.shields.io/badge/Target-12_skills-orange?style=for-the-badge)](#-roadmap)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
@@ -34,6 +34,7 @@ flowchart LR
         K2["competitive-analyzer<br/>buyer-weighted teardown"]
         K3["assumption-mapper<br/>K/B/H × Crit/Low"]
         K4["north-star-metric-finder<br/>5-criteria pick"]
+        K5["jtbd-extractor<br/>functional / emotional / social jobs"]
     end
 
     subgraph OUTPUT["🎯 VALIDATED OPPORTUNITY"]
@@ -41,19 +42,21 @@ flowchart LR
         O2["Defensible competitive POV"]
         O3["Ranked test plan"]
         O4["North Star + input metrics"]
+        O5["Scored JTBD opportunities"]
     end
 
     SIGNAL --> K1 --> O1
     SIGNAL --> K2 --> O2
     SIGNAL --> K3 --> O3
     SIGNAL --> K4 --> O4
+    SIGNAL --> K5 --> O5
 
     classDef skill fill:#1a73e8,color:#fff,stroke:#1558b0,stroke-width:2px,rx:6,ry:6
     classDef signal fill:#fef7e0,color:#202124,stroke:#fbbc04,stroke-width:1px,rx:6,ry:6
     classDef output fill:#e6f4ea,color:#0d652d,stroke:#0d652d,stroke-width:2px,rx:6,ry:6
-    class K1,K2,K3,K4 skill
+    class K1,K2,K3,K4,K5 skill
     class S1,S2,S3,S4 signal
-    class O1,O2,O3,O4 output
+    class O1,O2,O3,O4,O5 output
 ```
 
 ---
@@ -79,6 +82,7 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 #      /competitive-analyzer        — score competitors on buyer dimensions
 #      /assumption-mapper           — surface and rank bet-killing assumptions
 #      /north-star-metric-finder    — pick a 2-year-horizon north star
+#      /jtbd-extractor              — turn interviews into ranked JTBD statements
 ```
 
 **GitHub Copilot users:** copy the same `skills/` directory into `.github/skills/` in any repo and invoke via natural language.
@@ -95,12 +99,13 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 | [competitive-analyzer](skills/competitive-analyzer/SKILL.md) | Runs a disciplined competitive teardown - picks 4-6 buyer-weighted dimensions, scores every competitor, and surfaces gap + risk maps | You need a defensible competitive analysis that changes a decision, not a 40-row feature grid |
 | [assumption-mapper](skills/assumption-mapper/SKILL.md) | Surfaces hidden assumptions, classifies them Known / Believed / Hoped × Critical / High / Medium / Low, and outputs a ranked test plan | You're about to commit real investment to a bet and need to know what could kill it first |
 | [north-star-metric-finder](skills/north-star-metric-finder/SKILL.md) | Identifies a candidate North Star Metric using five strict criteria, then maps the input metrics that drive it | You're picking the single metric that will steer two years of roadmap decisions |
+| [jtbd-extractor](skills/jtbd-extractor/SKILL.md) | Turns raw research (interviews, support, sales notes) into ranked Jobs-to-be-Done statements with functional / emotional / social jobs and opportunity scoring. Ships with a Python CLI + HTML renderer | You have a corpus of customer conversation and need structured, prioritised JTBD output you can actually act on |
 
 ---
 
 ## 🗺 Roadmap
 
-4 of 12 skills shipped. Additional skills planned: persona-validator, jtbd-mapper, opportunity-sizer, switch-cost-analyzer, willingness-to-pay-tester, and more. Watch this repo for releases.
+5 of 12 skills shipped. Additional skills planned: persona-validator, opportunity-sizer, switch-cost-analyzer, willingness-to-pay-tester, and more. Watch this repo for releases.
 
 ---
 

@@ -1,0 +1,140 @@
+{
+  "title": "Jobs-to-be-Done Analysis",
+  "product_context": "B2B SaaS project management platform for cross-functional teams (50-500 seat orgs)",
+  "source": "12 customer interviews, 47 NPS responses, 23 support tickets",
+  "author": "JTBD Extractor",
+  "date": "2026-03-30",
+  "jobs": [
+    {
+      "situation": "preparing for a weekly leadership sync",
+      "action": "see cross-team status at a glance",
+      "outcome": "report progress without chasing 5 people for updates",
+      "category": "functional",
+      "importance": 9,
+      "satisfaction": 3,
+      "evidence": "\"I spend 2 hours every Monday morning Slacking people for updates just to fill out a slide.\" — PM, fintech",
+      "icon": "📊"
+    },
+    {
+      "situation": "a project timeline shifts",
+      "action": "instantly see downstream impact on dependencies",
+      "outcome": "re-prioritize before things break",
+      "category": "functional",
+      "importance": 9,
+      "satisfaction": 4,
+      "evidence": "\"By the time I realize something slipped, three other teams are already blocked.\" — Eng Lead, healthtech",
+      "icon": "🔗"
+    },
+    {
+      "situation": "scoping a new initiative",
+      "action": "reference how similar past projects actually went",
+      "outcome": "give realistic estimates instead of guessing",
+      "category": "functional",
+      "importance": 8,
+      "satisfaction": 2,
+      "evidence": "\"We keep making the same estimation mistakes because nobody looks back.\" — VP Eng, logistics",
+      "icon": "📚"
+    },
+    {
+      "situation": "onboarding a new team member mid-project",
+      "action": "give them full context in one place",
+      "outcome": "get them productive in days instead of weeks",
+      "category": "functional",
+      "importance": 8,
+      "satisfaction": 3,
+      "evidence": "\"New hires spend their first two weeks just figuring out where things live.\" — PM, edtech",
+      "icon": "🚀"
+    },
+    {
+      "situation": "a stakeholder asks about a specific deliverable",
+      "action": "pull up its full history and current state",
+      "outcome": "answer confidently without digging through Slack threads",
+      "category": "functional",
+      "importance": 7,
+      "satisfaction": 4,
+      "evidence": "\"I scroll through 3 months of Slack to find who decided what and when.\" — PM, martech",
+      "icon": "🔍"
+    },
+    {
+      "situation": "presenting project status to executives",
+      "action": "confident and in control",
+      "outcome": "advocate for my team without anxiety",
+      "category": "emotional",
+      "importance": 9,
+      "satisfaction": 3,
+      "evidence": "\"The worst feeling is when the CEO asks a question and I have to say 'let me get back to you.'\" — Sr. PM",
+      "icon": "💪"
+    },
+    {
+      "situation": "managing 4+ concurrent projects",
+      "action": "like nothing is falling through the cracks",
+      "outcome": "sleep at night and not dread Monday mornings",
+      "category": "emotional",
+      "importance": 9,
+      "satisfaction": 4,
+      "evidence": "\"I wake up at 3am thinking 'did I follow up on that thing?' It's unsustainable.\" — PM, fintech",
+      "icon": "😌"
+    },
+    {
+      "situation": "dependencies slip and deadlines are at risk",
+      "action": "empowered to act quickly",
+      "outcome": "resolve issues before they escalate into fire drills",
+      "category": "emotional",
+      "importance": 8,
+      "satisfaction": 3,
+      "evidence": "\"I don't mind problems — I mind finding out about them too late to do anything.\" — Eng Lead",
+      "icon": "⚡"
+    },
+    {
+      "situation": "presenting to leadership",
+      "action": "someone who has everything under control",
+      "outcome": "earn trust for larger, more strategic initiatives",
+      "category": "social",
+      "importance": 9,
+      "satisfaction": 4,
+      "evidence": "\"If I look like I'm scrambling, they won't give me the big projects.\" — Sr. PM",
+      "icon": "🏆"
+    },
+    {
+      "situation": "working across engineering, design, and business teams",
+      "action": "a fair and transparent coordinator",
+      "outcome": "maintain trust when making hard tradeoff calls",
+      "category": "social",
+      "importance": 8,
+      "satisfaction": 5,
+      "evidence": "\"If people think I'm playing favorites with priorities, the whole system breaks down.\" — PM",
+      "icon": "⚖️"
+    },
+    {
+      "situation": "proposing process changes",
+      "action": "data-driven and pragmatic, not bureaucratic",
+      "outcome": "get buy-in without being labeled 'the process person'",
+      "category": "social",
+      "importance": 7,
+      "satisfaction": 3,
+      "evidence": "\"The moment you say 'process improvement,' engineers tune out. I need data.\" — PM, logistics",
+      "icon": "📈"
+    }
+  ],
+  "translations": [
+    { "request": "Add a dashboard", "real_job": "Know if I'm on track without manually compiling status" },
+    { "request": "Gantt chart view", "real_job": "See dependency chains and identify cascade risks at a glance" },
+    { "request": "Export to PDF", "real_job": "Share progress with execs who won't log into our tool" },
+    { "request": "Slack integration", "real_job": "Get alerted about risks in my existing workflow" },
+    { "request": "More chart types", "real_job": "Tell a compelling, data-backed story to justify my team's work" },
+    { "request": "API access", "real_job": "Connect project data to BI tools so leadership trusts the numbers" },
+    { "request": "Templates", "real_job": "Stop reinventing the wheel — learn from what worked before" },
+    { "request": "Better search", "real_job": "Find decision history for any deliverable without archaeology" }
+  ],
+  "recommendations": [
+    "Prioritize auto-generated status intelligence — #1 opportunity and addresses the most emotionally charged pain point.",
+    "Build the dependency impact radar as a differentiator — nobody does proactive cascade alerting well.",
+    "Don't build a Gantt chart — the underlying job is dependency visibility, not the specific visualization.",
+    "Surface emotional jobs in marketing — 'Sleep better knowing nothing falls through the cracks' resonates more than 'Track tasks across teams.'"
+  ],
+  "persona_comparison": {
+    "confirms": "\"Overloaded PM\" persona's core pain around status reporting is strongly validated. 11 of 12 interviewees mentioned this unprompted.",
+    "expands": "Emotional and social jobs were entirely missing from persona docs. Executive anxiety and desire for recognition are significant drivers.",
+    "contradicts": "\"Engineering Lead\" was assumed to care most about sprint velocity. Interviews reveal they care more about early warning on cross-team dependencies."
+  }
+}
