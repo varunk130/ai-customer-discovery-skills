@@ -1,6 +1,19 @@
 ---
 name: competitive-analyzer
+version: 1.0.0
 description: 'Structured competitive teardown for product discovery - surface the 4-6 dimensions buyers actually weigh, score every competitor on each, and identify exploitable gaps. Use when: competitive analysis, competitor teardown, market positioning, where do we win, where do we lose, competitive gap analysis, competitor audit.'
+when_to_use: 'Building a defensible competitive POV that will change a decision, not a 40-row feature grid.'
+inputs:
+  - List of 3-8 competitors
+  - Buyer interview notes (optional)
+  - Product category and target segment
+outputs:
+  - 4-6 buyer-weighted dimensions with scoring rubric
+  - Competitor scoring matrix
+  - Gap map and risk map
+  - Recommended competitive POV
+tags: ['discovery', 'competitive', 'positioning', 'strategy']
+maintainer: varunk130
 ---
 
 # Competitive Analyzer

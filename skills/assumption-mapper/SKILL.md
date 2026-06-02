@@ -1,6 +1,18 @@
 ---
 name: assumption-mapper
+version: 1.0.0
 description: 'Surfaces the assumptions a product or strategy depends on, classifies them by criticality and evidence quality, and produces a prioritized test plan. Use when: assumption mapping, identify assumptions, what could go wrong, leap-of-faith assumptions, riskiest assumption test, RAT, assumption inventory, validate before building.'
+when_to_use: 'Identifying and ranking the riskiest assumptions behind a product, strategy, or experiment before committing real investment.'
+inputs:
+  - Product or strategy brief
+  - List of bets, hypotheses, or planned initiatives
+  - Prior evidence (optional)
+outputs:
+  - Assumption inventory classified Known / Believed / Hoped x Critical / High / Medium / Low
+  - Ranked test plan with experiment ideas
+  - Top-5 leap-of-faith assumptions to validate first
+tags: ['discovery', 'validation', 'risk', 'planning']
+maintainer: varunk130
 ---
 
 # Assumption Mapper

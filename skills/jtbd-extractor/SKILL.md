@@ -1,6 +1,18 @@
 ---
 name: jtbd-extractor
+version: 1.0.0
 description: 'Turn raw research into Jobs-to-be-Done statements showing what users are really trying to accomplish. Use when: extract jobs, jtbd analysis, jobs to be done, what job is the user hiring, underlying user needs.'
+when_to_use: 'You have a corpus of customer conversation and need structured, prioritised Jobs-to-be-Done output you can actually act on.'
+inputs:
+  - Interview transcripts
+  - Support tickets, sales call notes, NPS comments
+  - Optional: audio recordings (see docs/AUDIO_INPUT_MODE.md)
+outputs:
+  - Functional, emotional, and social JTBD statements
+  - Opportunity scoring per job
+  - Markdown and HTML reports rendered via the included Python CLI
+tags: ['discovery', 'jtbd', 'research-synthesis', 'opportunity-scoring']
+maintainer: varunk130
 ---
 
 # JTBD Extractor

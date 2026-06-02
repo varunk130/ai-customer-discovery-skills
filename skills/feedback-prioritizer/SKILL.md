@@ -1,6 +1,16 @@
 ---
 name: feedback-prioritizer
+version: 1.0.0
 description: 'Triages a backlog of raw customer feedback into a ranked list of opportunities scored on reach, severity, strategic fit, and confidence. Outputs a prioritized list with explicit "do not act" callouts for vocal-minority signals. Use when: triage feedback, prioritize feature requests, customer feedback backlog, what should we build next, opportunity scoring, RICE feedback, feedback synthesis.'
+when_to_use: 'A backlog of tickets, interviews, NPS, or sales notes is piling up and the team needs focus on what to actually act on.'
+inputs:
+  - Raw customer feedback corpus (support tickets, interviews, NPS verbatims, sales notes)
+outputs:
+  - Ranked opportunity list scored on Reach / Severity / Confidence / Fit (RSCF)
+  - Explicit Do-Not-Act list for vocal-minority signals
+  - Theme synthesis with representative quotes
+tags: ['discovery', 'prioritization', 'feedback', 'RSCF', 'triage']
+maintainer: varunk130
 ---
 
 # Feedback Prioritizer

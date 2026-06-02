@@ -1,6 +1,18 @@
 ---
 name: north-star-metric-finder
+version: 1.0.0
 description: 'Identifies a candidate North Star Metric (NSM) for a product - the single metric that captures the value the product delivers to its customers and predicts long-term business growth. Tests candidates against five criteria and surfaces input metrics that move it. Use when: north star metric, NSM, single metric that matters, primary metric, growth metric, value-capture metric, what should we measure.'
+when_to_use: 'You''re picking the single metric that will steer two years of roadmap decisions and want to avoid vanity or output metrics.'
+inputs:
+  - Product description and value hypothesis
+  - Current KPIs and dashboards (optional)
+  - Target customer segment
+outputs:
+  - Candidate North Star Metric with 5-criteria scoring
+  - Input-metric map showing what moves the NSM
+  - Anti-patterns flagged (revenue-as-NSM, vanity metrics, etc.)
+tags: ['discovery', 'metrics', 'north-star', 'strategy']
+maintainer: varunk130
 ---
 
 # North Star Metric Finder
