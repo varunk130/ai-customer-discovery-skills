@@ -7,7 +7,7 @@
 ![JTBD Extractor Overview](assets/jtbd-overview.png)
 
 [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet)](#installation)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
 [![Built by Varun Kulkarni](https://img.shields.io/badge/Built%20by-Varun%20Kulkarni-purple)](https://github.com/varunk130)
 
@@ -263,7 +263,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for the full text.
+MIT — see [LICENSE](../../LICENSE) for the full text.
 
 ---
 
