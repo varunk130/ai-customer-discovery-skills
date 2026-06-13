@@ -2,7 +2,7 @@
 name: jtbd-extractor
 version: 1.0.0
 description: 'Turn raw research into Jobs-to-be-Done statements showing what users are really trying to accomplish. Use when: extract jobs, jtbd analysis, jobs to be done, what job is the user hiring, underlying user needs.'
-when_to_use: 'You have a corpus of customer conversation and need structured, prioritised Jobs-to-be-Done output you can actually act on.'
+when_to_use: 'You have a corpus of customer conversations and need structured, prioritized Jobs-to-be-Done output you can actually act on.'
 inputs:
   - Interview transcripts
   - Support tickets, sales call notes, NPS comments

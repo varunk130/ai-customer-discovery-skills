@@ -99,7 +99,7 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 | [competitive-analyzer](skills/competitive-analyzer/SKILL.md) | Runs a disciplined competitive teardown - picks 4-6 buyer-weighted dimensions, scores every competitor, and surfaces gap + risk maps | You need a defensible competitive analysis that changes a decision, not a 40-row feature grid |
 | [assumption-mapper](skills/assumption-mapper/SKILL.md) | Surfaces hidden assumptions, classifies them Known / Believed / Hoped × Critical / High / Medium / Low, and outputs a ranked test plan | You're about to commit real investment to a bet and need to know what could kill it first |
 | [north-star-metric-finder](skills/north-star-metric-finder/SKILL.md) | Identifies a candidate North Star Metric using five strict criteria, then maps the input metrics that drive it | You're picking the single metric that will steer two years of roadmap decisions |
-| [jtbd-extractor](skills/jtbd-extractor/SKILL.md) | Turns raw research (interviews, support, sales notes) into ranked Jobs-to-be-Done statements with functional / emotional / social jobs and opportunity scoring. Ships with a Python CLI + HTML renderer | You have a corpus of customer conversation and need structured, prioritised JTBD output you can actually act on |
+| [jtbd-extractor](skills/jtbd-extractor/SKILL.md) | Turns raw research (interviews, support, sales notes) into ranked Jobs-to-be-Done statements with functional / emotional / social jobs and opportunity scoring. Ships with a Python CLI + HTML renderer | You have a corpus of customer conversations and need structured, prioritized JTBD output you can actually act on |
 
 ---
 
