@@ -1,6 +1,6 @@
 # 🎯 JTBD Extractor
 
-> Turn raw research into Jobs-to-be-Done statements that reveal what users are really trying to accomplish - reframing feature requests as underlying needs and surfacing innovation opportunities worth pursuing.
+> Turn raw research into Jobs-to-be-Done statements that reveal what users are really trying to accomplish — reframing feature requests as underlying needs and surfacing innovation opportunities worth pursuing.
 
 > Audio interview input is scaffolded — see [docs/AUDIO_INPUT_MODE.md](docs/AUDIO_INPUT_MODE.md). Today the skill expects clean transcript text; the audio adapter seam is documented for later wiring.
 
@@ -122,7 +122,7 @@ Claude will walk you through the process step-by-step:
 ## Framework Reference
 
 **Jobs-to-be-Done**:
-- People don't buy products - they hire them to do a job
+- People don't buy products — they hire them to do a job
 - Jobs are stable; solutions change
 - **Opportunity = Importance + (Importance - Satisfaction)**
 
