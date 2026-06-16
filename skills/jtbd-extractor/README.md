@@ -16,8 +16,9 @@
 ## ⚡ Quickstart
 
 ```bash
-# 1. Clone directly into your Claude Code skills directory
-git clone https://github.com/varunk130/jtbd-extractor.git ~/.claude/skills/jtbd-extractor
+# 1. Clone the library, then copy this skill into your Claude Code skills directory
+git clone https://github.com/varunk130/ai-customer-discovery-skills.git
+cp -r ai-customer-discovery-skills/skills/jtbd-extractor ~/.claude/skills/jtbd-extractor
 
 # 2. Restart Claude Code, then in any chat:
 /jtbd-extractor
@@ -51,7 +52,8 @@ The JTBD Extractor is a Claude Code skill that transforms unstructured research 
 ### Global install (available in every project)
 
 ```bash
-git clone https://github.com/varunk130/jtbd-extractor.git ~/.claude/skills/jtbd-extractor
+git clone https://github.com/varunk130/ai-customer-discovery-skills.git
+cp -r ai-customer-discovery-skills/skills/jtbd-extractor ~/.claude/skills/jtbd-extractor
 ```
 
 Then restart Claude Code so it picks up the new skill.
@@ -61,7 +63,8 @@ Then restart Claude Code so it picks up the new skill.
 Clone or copy the folder into your project's `.claude/skills/` directory instead of the global location:
 
 ```bash
-git clone https://github.com/varunk130/jtbd-extractor.git .claude/skills/jtbd-extractor
+git clone https://github.com/varunk130/ai-customer-discovery-skills.git
+cp -r ai-customer-discovery-skills/skills/jtbd-extractor .claude/skills/jtbd-extractor
 ```
 
 ---
@@ -252,7 +255,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 **Multi-agent demos**
 
 - [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) - 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
-- [ai-legal-team-agent](https://github.com/varunk130/ai-legal-team-agent) - 4-agent legal analysis team with Python orchestrator and Claude Code skills
+- [ai-legal-agents-skills-os](https://github.com/varunk130/ai-legal-agents-skills-os) - Agentic operating system for legal work: one master agent, nine specialist skills, MCP + MCP Apps
 
 **Evaluation & operations**
 
