@@ -81,7 +81,7 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 #      /feedback-prioritizer        — triage a backlog of support tickets
 #      /competitive-analyzer        — score competitors on buyer dimensions
 #      /assumption-mapper           — surface and rank bet-killing assumptions
-#      /north-star-metric-finder    — pick a 2-year-horizon north star
+#      /north-star-metric-finder    — pick a 2-year-horizon North Star
 #      /jtbd-extractor              — turn interviews into ranked JTBD statements
 ```
 
