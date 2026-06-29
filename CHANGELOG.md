@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial repository scaffold
 - 12-skill customer discovery library (in progress)
+
+### Changed
+- Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
+- Added the three Next.js multi-agent demos (Compound, Beacon, Atlas) to the Related Work section (root README and the jtbd-extractor skill README).
 - CI workflows (lint, link check, SKILL.md validator)
 - Issue and PR templates
 - Branch protection ruleset on `main`
