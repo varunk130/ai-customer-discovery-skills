@@ -96,7 +96,7 @@ cp -r ai-customer-discovery-skills/skills/* ~/.claude/skills/
 | Skill | What it does | Use when |
 |-------|--------------|----------|
 | [feedback-prioritizer](skills/feedback-prioritizer/SKILL.md) | Triages raw customer feedback into a ranked list using the RSCF model, with an explicit `Do Not Act` list for vocal-minority signals | A backlog of tickets / interviews / NPS / sales notes is piling up and the team needs focus |
-| [competitive-analyzer](skills/competitive-analyzer/SKILL.md) | Runs a disciplined competitive teardown - picks 4-6 buyer-weighted dimensions, scores every competitor, and surfaces gap + risk maps | You need a defensible competitive analysis that changes a decision, not a 40-row feature grid |
+| [competitive-analyzer](skills/competitive-analyzer/SKILL.md) | Runs a disciplined competitive teardown — picks 4-6 buyer-weighted dimensions, scores every competitor, and surfaces gap + risk maps | You need a defensible competitive analysis that changes a decision, not a 40-row feature grid |
 | [assumption-mapper](skills/assumption-mapper/SKILL.md) | Surfaces hidden assumptions, classifies them Known / Believed / Hoped × Critical / High / Medium / Low, and outputs a ranked test plan | You're about to commit real investment to a bet and need to know what could kill it first |
 | [north-star-metric-finder](skills/north-star-metric-finder/SKILL.md) | Identifies a candidate North Star Metric using five strict criteria, then maps the input metrics that drive it | You're picking the single metric that will steer two years of roadmap decisions |
 | [jtbd-extractor](skills/jtbd-extractor/SKILL.md) | Turns raw research (interviews, support, sales notes) into ranked Jobs-to-be-Done statements with functional / emotional / social jobs and opportunity scoring. Ships with a Python CLI + HTML renderer | You have a corpus of customer conversations and need structured, prioritized JTBD output you can actually act on |
@@ -115,35 +115,35 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 **Discovery & research**
 
-- [jtbd-extractor](https://github.com/varunk130/ai-customer-discovery-skills/tree/main/skills/jtbd-extractor) - Extract Jobs-to-be-Done statements from research, with opportunity scoring
+- [jtbd-extractor](https://github.com/varunk130/ai-customer-discovery-skills/tree/main/skills/jtbd-extractor) — Extract Jobs-to-be-Done statements from research, with opportunity scoring
 
 **Strategy & decisions**
 
-- [claude-code-skills](https://github.com/varunk130/claude-code-skills) - 29 production-grade skills for finance, product, strategy, and game theory
-- [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) - 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
+- [claude-code-skills](https://github.com/varunk130/claude-code-skills) — 29 production-grade skills for finance, product, strategy, and game theory
+- [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) — 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
 
 **Go-to-market**
 
-- [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) - 31 opinionated GTM skills across the full discover -> renew lifecycle
-- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) - 12 marketing-ops skills with scoring algorithms and statistical frameworks
-- [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) - Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
+- [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) — 31 opinionated GTM skills across the full discover → renew lifecycle
+- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) — 12 marketing-ops skills with scoring algorithms and statistical frameworks
+- [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) — Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
 
 **UX & design**
 
-- [ai-ux-skill-library](https://github.com/varunk130/ai-ux-skill-library) - 12 frameworks for designing UX for AI products, agents, and AI-powered experiences
+- [ai-ux-skill-library](https://github.com/varunk130/ai-ux-skill-library) — 12 frameworks for designing UX for AI products, agents, and AI-powered experiences
 
 **Multi-agent demos**
 
-- [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) - 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
-- [ai-legal-agents-skills-os](https://github.com/varunk130/ai-legal-agents-skills-os) - Agentic operating system for legal work: one master agent, nine specialist skills, MCP + MCP Apps
-- [ai-growth-os](https://github.com/varunk130/ai-growth-os) - Compound: a multi-agent growth experiment engine that runs the find -> design -> ship -> learn loop end-to-end, offline
-- [ai-customer-acquisition](https://github.com/varunk130/ai-customer-acquisition) - Beacon: five agents allocate a budget across channels, build the creative, and reallocate on week-1 results
-- [ai-revops](https://github.com/varunk130/ai-revops) - Atlas: nine agents across GTM, Partnerships, and RevOps take a company into a new market with one Vertical Launch Plan
+- [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) — 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
+- [ai-legal-agents-skills-os](https://github.com/varunk130/ai-legal-agents-skills-os) — Agentic operating system for legal work: one master agent, nine specialist skills, MCP + MCP Apps
+- [ai-growth-os](https://github.com/varunk130/ai-growth-os) — Compound: a multi-agent growth experiment engine that runs the find → design → ship → learn loop end-to-end, offline
+- [ai-customer-acquisition](https://github.com/varunk130/ai-customer-acquisition) — Beacon: five agents allocate a budget across channels, build the creative, and reallocate on week-1 results
+- [ai-revops](https://github.com/varunk130/ai-revops) — Atlas: nine agents across GTM, Partnerships, and RevOps take a company into a new market with one Vertical Launch Plan
 
 **Evaluation & operations**
 
-- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) - 7 skills to plan, generate, run, interpret, and triage AI agent evaluations
-- [ai-workflow-playbooks](https://github.com/varunk130/ai-workflow-playbooks) - 21 playbooks + 10 skills + 4 guardians + 5 runbooks across the 7-stage delivery pipeline
+- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) — 7 skills to plan, generate, run, interpret, and triage AI agent evaluations
+- [ai-workflow-playbooks](https://github.com/varunk130/ai-workflow-playbooks) — 21 playbooks + 10 skills + 4 guardians + 5 runbooks across the 7-stage delivery pipeline
 
 ---
 
