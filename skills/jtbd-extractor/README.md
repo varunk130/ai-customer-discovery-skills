@@ -244,7 +244,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 **Go-to-market**
 
-- [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) - 31 opinionated GTM skills across the full discover -> renew lifecycle
+- [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) - 37 opinionated GTM skills across the full discover -> renew lifecycle
 - [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) - 12 marketing-ops skills with scoring algorithms and statistical frameworks
 - [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) - Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
 
