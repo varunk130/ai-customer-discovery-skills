@@ -40,5 +40,3 @@ class SkillRunner:
     def run(self, skill: Skill, user_input: str, **kwargs) -> str:
         prompt = self.render(skill, user_input)
         return self.backend(prompt, **kwargs)
-
-
