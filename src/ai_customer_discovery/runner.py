@@ -8,7 +8,7 @@ LLM backend. The default backend simply renders the prompt — real backends
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Callable, Protocol
+from typing import Protocol
 
 from .loader import Skill
 
@@ -42,5 +42,3 @@ class SkillRunner:
         return self.backend(prompt, **kwargs)
 
 
-def make_runner(backend: Callable[..., str] | None = None) -> SkillRunner:
-    return SkillRunner(backend=backend or _echo_backend)
