@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 12-skill customer discovery library (in progress)
 
 ### Changed
+- Corrected the ai-ux-skill-library reference in Related Work to 13 frameworks and the ai-gtm-skill-library reference to 37 skills.
+- Restored missing final newlines across docs, examples, `LICENSE`, and `CITATION.cff` per `.editorconfig`.
 - Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
 - Added the three Next.js multi-agent demos (Compound, Beacon, Atlas) to the Related Work section (root README and the jtbd-extractor skill README).
 - CI workflows (lint, link check, SKILL.md validator)
