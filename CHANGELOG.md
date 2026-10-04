@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 12-skill customer discovery library (in progress)
 
 ### Changed
+- Removed the redundant `make_runner` factory - `SkillRunner` already defaults to the echo backend, so the factory duplicated its constructor.
 - Corrected the ai-ux-skill-library reference in Related Work to 13 frameworks and the ai-gtm-skill-library reference to 37 skills.
 - Restored missing final newlines across docs, examples, `LICENSE`, and `CITATION.cff` per `.editorconfig`.
 - Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
