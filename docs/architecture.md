@@ -58,4 +58,4 @@ Most discovery libraries are flat collections of prompts. They produce inconsist
 
 - This library does **not** ship a runtime, agent harness, or orchestrator. It ships specifications + prompts that any agent can execute.
 - It does **not** opine on storage, vector search, or retrieval.
-- It is **not** a substitute for talking to customers - it amplifies that work, not replaces it.
+- It is **not** a substitute for talking to customers - it amplifies that work rather than replacing it.
