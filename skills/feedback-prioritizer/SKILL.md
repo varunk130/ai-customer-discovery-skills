@@ -6,7 +6,7 @@ when_to_use: 'A backlog of tickets, interviews, NPS, or sales notes is piling up
 inputs:
   - Raw customer feedback corpus (support tickets, interviews, NPS verbatims, sales notes)
 outputs:
-  - Ranked opportunity list scored on Reach / Severity / Confidence / Fit (RSCF)
+  - Ranked opportunity list scored on Reach / Severity / Strategic fit / Confidence (RSCF)
   - Explicit Do-Not-Act list for vocal-minority signals
   - Theme synthesis with representative quotes
 tags: ['discovery', 'prioritization', 'feedback', 'RSCF', 'triage']
