@@ -33,7 +33,7 @@ Identify a candidate North Star Metric (NSM) that satisfies five strict criteria
 | **Understandable** | Can every employee state the metric and why it matters in one sentence? | "Weekly active accounts with ≥3 successful API calls in their primary workspace" |
 | **Singular** | Is this a single metric, not an index of three? | A weighted composite hides which input is broken |
 
-A candidate must pass all five. Three out of five is not a NSM - it's a useful KPI.
+A candidate must pass all five. Three out of five is not an NSM - it's a useful KPI.
 
 ## Output
 
