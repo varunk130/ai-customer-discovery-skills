@@ -180,7 +180,7 @@ CI runs the same checks on every PR.
 ## Style guide
 
 - Use **sentence case** for headings (`## How it works`, not `## How It Works`).
-- Wrap markdown at ~100 chars where reasonable.
+- Wrap Markdown at ~100 chars where reasonable.
 - Use fenced code blocks with a language tag.
 - Prefer concrete examples over abstract description.
 - Avoid jargon without definition.
