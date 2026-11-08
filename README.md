@@ -119,13 +119,13 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 **Strategy & decisions**
 
-- [claude-code-skills](https://github.com/varunk130/claude-code-skills) — 29 production-grade skills for finance, product, strategy, and game theory
+- [claude-code-skills](https://github.com/varunk130/claude-code-skills) — 42 production-grade skills across AI UX, AI marketing, finance, product, strategy, and game theory
 - [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) — 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
 
 **Go-to-market**
 
 - [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) — 37 opinionated GTM skills across the full discover → renew lifecycle
-- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) — 12 marketing-ops skills with scoring algorithms and statistical frameworks
+- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) — 13 marketing-ops skills with scoring algorithms and statistical frameworks
 - [ai-marketing-os](https://github.com/varunk130/ai-marketing-os) — Run a marketing org as an orchestrated AI team: 9 agents, 12 expert skills, end-to-end missions that ship real artifacts
 - [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) — Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
 
